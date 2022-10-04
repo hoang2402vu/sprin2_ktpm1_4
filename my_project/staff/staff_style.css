@@ -1,0 +1,253 @@
+/*reset css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error {
+    color: #e70404;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.error_title {
+  margin-top: 60px;
+  text-align: center;
+  color: #e70404;
+}
+
+body {
+    
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+      background-size: 100% 110%;
+  }
+ 
+  .login {
+    border-radius: 5px;
+    margin: 0px auto 80px;
+    max-width: 484px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #000;
+  }
+  .login-header {
+    color:#fff;
+    text-align:center;
+    font-size:200%;
+    background-color:#4facff;
+    padding: 20px 0px;
+  }
+
+  
+  .login-form {
+    text-align: left;
+    padding: 28px;
+  }
+
+  .wrap_input {
+    padding-bottom: 16px;
+  }
+
+  .login_input {
+    margin-top: 4px;
+    font-size: 16px;
+    padding: 4px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #999;
+  }
+
+  .login_submit {
+    text-align: center;
+  }
+
+  .login_button {
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 4px 16px;
+    background-color: #1b00ff;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #999;
+  }
+
+  .login_button:hover {
+    cursor: pointer;
+    background-color: #1900ff9c;
+  }
+
+  .register {
+    text-align: center;
+    margin: 12px 0px;
+  }
+
+  .login_button_register {
+    background-color: #02c51a;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #999;
+  }
+
+  .login_button_register:hover {
+    cursor: pointer;
+    background-color: #02c5199d;
+  }
+
+  .register_link {
+    text-decoration: none;
+    padding: 20px 30px;
+    line-height: 34px;
+    color: #fff;
+  }
+
+ 
+
+  .or {
+    margin-bottom: 12px;
+  }
+
+  .forgot_pass {
+    color: red;
+    text-align: end;
+    margin-top: 32px;
+  }
+
+  /*order_management*/
+
+  .header {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main_order {
+    display: flex;
+    padding:0px 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .count_order {
+    font-size: 20px;
+    font-weight: 700;
+    color: #040878;
+  }
+
+  .interactive_in_out {
+    margin-bottom: 8px;
+  }
+
+  .find_order_input {
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 6px;
+  }
+
+  .find_order_button {
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #0518f9;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .find_order_button:hover {
+    cursor: pointer;
+    background-color: #040878;
+  }
+
+  .in_out_order {
+    width: 224px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .in_out_button {
+    border: none;
+  }
+
+  
+  .in_out_link {
+    border-radius: 6px;
+    padding: 8px;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: red;
+  }
+
+  .out_link {
+    background-color: #1bff00 !important;
+    color: #680909 !important;
+  }
+
+  /*in_out_order*/
+
+  .wrap_wrap_input {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*show order*/
+
+.order_content_list {
+  padding: 20px;
+}
+
+.order_list_table {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.order_list_title {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.order_button {
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 37px;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.order_link {
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+    height: 80%;
+    align-items: center;
+    font-weight: 900;
+}
+
+.update {
+    background-color: #129103;
+    color: #fff;
+}
+
+.delete {
+    color: #FFF;
+    background-color: #6e6d6d;
+}

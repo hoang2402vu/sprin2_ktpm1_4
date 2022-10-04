@@ -1,0 +1,130 @@
+.index {
+    background-color: rgba(255,255,255,0.2 ) !important;
+}
+
+.staff_content_header {
+    justify-content: space-between;
+    display: flex;
+    padding: 40px 20px 0px;
+    align-items: flex-end;
+}
+
+.find_staff {
+    margin-top: 12px;
+}
+
+.find_staff_input {
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.find_staff_button {
+    padding: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #030fa7;
+    border-radius: 5px;
+}
+
+.find_staff_button:hover {
+    cursor: pointer;
+    background-color: #0616e7;
+}
+
+.add_button {
+    border: none;
+}
+
+.add_button_link {
+        color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    display: block;
+    background-color: #f74703;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.staff_content_list {
+    padding: 20px;
+}
+
+.staff_list_table {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.staff_list_title {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.staff_button {
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 37px;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.staff_link {
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+    height: 80%;
+    align-items: center;
+    font-weight: 900;
+}
+
+.update {
+    background-color: #129103;
+    color: #fff;
+}
+
+.delete {
+    color: #FFF;
+    background-color: #6e6d6d;
+}
+/*choose gender*/
+
+.gender_choose {
+    justify-content: space-around;
+    display: flex;
+}
+
+.gender {
+    font-size: 20px;
+    display: flex;
+}
+
+.gender input {
+    width: 18px;
+    margin-right: 4px
+}
+
+/*find order*/
+
+.find_order_item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
+
+.select_staff {
+    font-size: 18px;
+}
+
+.select_wrap {
+    padding-bottom: 12px;
+}
